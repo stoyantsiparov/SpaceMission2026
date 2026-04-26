@@ -5,28 +5,18 @@
 /// </summary>
 public enum CellType
 {
-    /// <summary>
-    /// Open space, safe to travel through. Cost: 1 step.
-    /// </summary>
+    /// <summary>Open space, safe to travel through.</summary>
     OpenSpace,
 
-    /// <summary>
-    /// Asteroid, dangerous and impassable.
-    /// </summary>
+    /// <summary>Asteroid, dangerous and impassable.</summary>
     Asteroid,
 
-    /// <summary>
-    /// Space debris, passable but incurs a higher movement cost. Cost: 2 steps.
-    /// </summary>
+    /// <summary>Space debris, passable but incurs a higher movement cost.</summary>
     Debris,
 
-    /// <summary>
-    /// The Space Station, representing the final destination.
-    /// </summary>
+    /// <summary>The Space Station, representing the final destination.</summary>
     SpaceStation,
 
-    /// <summary>
-    /// The starting location of an astronaut.
-    /// </summary>
+    /// <summary>The starting location of an astronaut.</summary>
     Astronaut
 }
