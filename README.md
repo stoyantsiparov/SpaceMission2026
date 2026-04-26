@@ -37,3 +37,9 @@ This application follows a **Clean Code** approach and adheres strictly to **SOL
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/stoyantsiparov/SpaceMission2026.git](https://github.com/stoyantsiparov/SpaceMission2026.git)
+2. **Navigate to the project folder:**
+   ```bash
+   cd SpaceMission2026
+3. **Run the application:**
+   ```bash
+   dotnet run
